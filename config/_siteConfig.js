@@ -12,7 +12,7 @@ export default {
   siteName: 'The Ben Dugan (dot com)',
   tagline: "It's true... I'm the only one!",
   featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '/logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID

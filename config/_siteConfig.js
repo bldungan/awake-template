@@ -9,24 +9,23 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'The Ben Dugan (dot com)',
-  tagline: "It's true... I'm the only one!",
+  siteName: 'The Ben Dungan (dot com)',
+  tagline: "It's true… I'm the only one!  ",
   featureImage: '/uploads/home-hero.jpg',
-  logo: 'The Ben Dungan (dot com)', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '/logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
     {
-      name: 'Categories',
-      link: '/categories'
-    },
-    {
       name: 'About',
       link: '/about'
     },
-    
+    {
+      name: 'Categories',
+      link: '/categories'
+    },
     {
       name: 'Contact',
       link: '/contact'
@@ -50,14 +49,14 @@ export default {
 
   // Disqus
   disqus: {
-    on: true,
+    on: false,
     loadingStrategy: 'button', // Options: onload, lazy, button
     siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,

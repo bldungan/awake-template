@@ -1,5 +1,4 @@
 <template>
-<div class="container">
   <nav
     class="navbar has-shadow is-fixed-top"
     role="navigation"
@@ -8,11 +7,7 @@
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
         <site-logo v-if="$siteConfig.logo === 'logo-component'" />
-        <img
-          v-else
-          :alt="$siteConfig.siteName"
-          class="logo"
-        />
+        
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
@@ -45,7 +40,6 @@
       </ul>
     </div>
   </nav>
-  </div>
 </template>
 <script>
 import SiteSearch from '~/components/SiteSearch'

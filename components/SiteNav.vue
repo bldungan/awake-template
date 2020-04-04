@@ -41,7 +41,38 @@
               {{ item.name }}
             </component>
           </li>
-          <li class="navbar-item site-search-wrapper">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <li class="navbar-item has-text-black-ter">
+              <a class="has-text-black-ter navbar-link">
+                Social Media
+              </a>
+            </li>
+
+            <div class="navbar-dropdown">
+              <a
+                class="navbar-item"
+                href="https://www.instagram.com/bldungan/"
+                target="_blank"
+              >
+                Instagram
+              </a>
+              <a
+                class="navbar-item"
+                href="https://twitter.com/thebendungan"
+                target="_blank"
+              >
+                Twitter
+              </a>
+              <a
+                class="navbar-item"
+                href="https://www.linkedin.com/in/ben-dungan-7008507/"
+                target="_blank"
+              >
+                Linkedin
+              </a>
+            </div>
+          </div>
+          <li class="navbar-item has-text-black-ter site-search-wrapper">
             <site-search />
           </li>
         </ul>

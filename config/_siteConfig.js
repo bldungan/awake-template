@@ -29,6 +29,10 @@ export default {
     {
       name: 'Contact',
       link: '/contact'
+    },
+    {
+      name: 'Gaston Alive! Magazine',
+      link: 'https://gastonalive.com/category/ben-dungan/'
     }
   ],
   hero: {

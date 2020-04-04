@@ -1,4 +1,5 @@
 <template>
+<div class="container">
   <nav
     class="navbar has-shadow is-fixed-top"
     role="navigation"
@@ -9,7 +10,6 @@
         <site-logo v-if="$siteConfig.logo === 'logo-component'" />
         <img
           v-else
-          :src="$siteConfig.logo"
           :alt="$siteConfig.siteName"
           class="logo"
         />
@@ -45,6 +45,7 @@
       </ul>
     </div>
   </nav>
+  </div>
 </template>
 <script>
 import SiteSearch from '~/components/SiteSearch'

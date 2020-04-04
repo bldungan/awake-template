@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'The Ben Dugan (dot com)',
+  tagline: 'It&#39;s true... I&#39;m the only one!',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -19,26 +19,17 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
-      link: '/about'
-    },
-    {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
       name: 'Categories',
       link: '/categories'
     },
     {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
+      name: 'About',
+      link: '/about'
     },
+    
     {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
+      name: 'Contact',
+      link: '/contact'
     }
   ],
   hero: {
@@ -99,8 +90,8 @@ export default {
     date: {
       display: true
     },
-    perRow: 3,
-    perPage: 6
+    perRow: 4,
+    perPage: 12
   }
 }
 

@@ -7,11 +7,7 @@ author: Ben Dungan
 date: 2020-04-05T01:27:54.173Z
 featureImage: /uploads/lf-1-rsz-1024x993.jpg
 ---
-<!--StartFragment-->
-
 Ask any kid what they want to be when they grow up, and you’ll hear a common set of responses – police officer, teacher, doctor and lawyer – just to name a few.
-
-![we](http://gastonalive.com/wp-content/uploads/2017/09/LF2-rsz-300x400.jpg "we")
 
 What about a farmer? Farming sounds great at 9-years-old. It’s like Dwight D. Eisenhower said many years ago: “Farming looks mighty easy when your plow is a pencil and you’re a thousand miles from the corn fields.” When the bugs are biting, and the summer heat and humidity have worn you down, that doesn’t sound mighty easy at all.
 
@@ -35,7 +31,7 @@ Look up the words ‘due diligence’ in the dictionary, and a picture of John w
 
 It’s one thing to be passionate about what you do, but more importantly, I think it helps to not be afraid to make mistakes along the way. Many people would find this venture quite daunting – maybe even impossible. Not to John and Sue. They didn’t let inexperience and fear get in the way of achieving their dreams.
 
-![](http://gastonalive.com/wp-content/uploads/2017/09/LF3-rsz-300x400.jpg)As a result, they’ve all become experts. They’ve had to – it’s just the three of them. They are a true-to-life startup, making the most of what they have.
+As a result, they’ve all become experts. They’ve had to – it’s just the three of them. They are a true-to-life startup, making the most of what they have.
 
 John refers to Sue as the “harvester-expert”, while he thrives on those meticulous details that goes into operating a farm. Little Joy jumps in with both feet, soaking up everything she can while still lending a hand where needed.
 

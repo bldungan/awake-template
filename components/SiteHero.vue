@@ -3,7 +3,7 @@
     <img
       class="hero-bg-img"
       :src="responsiveImage.src"
-      :lazy="false"
+      :lazy="true"
       :srcset="responsiveImage.srcSet"
     />
     <div class="hero-body">
@@ -11,7 +11,7 @@
         <h1 class="title animated fadeInUp">
           {{ title }}
         </h1>
-        <h2 class="subtitle animated fadeInUp slower">
+        <h2 class="subtitle is-size-5 animated fadeInUp slower">
           {{ subtitle }}
         </h2>
         <br />

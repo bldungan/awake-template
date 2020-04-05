@@ -72,7 +72,7 @@
               </a>
             </div>
           </div>
-          <li class="navbar-item has-text-black-ter site-search-wrapper">
+          <li class="navbar-item site-search-wrapper">
             <site-search />
           </li>
         </ul>

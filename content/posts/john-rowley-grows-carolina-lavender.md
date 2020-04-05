@@ -11,7 +11,7 @@ featureImage: /uploads/lf-1-rsz-1024x993.jpg
 
 Ask any kid what they want to be when they grow up, and you’ll hear a common set of responses – police officer, teacher, doctor and lawyer – just to name a few.
 
-![](http://gastonalive.com/wp-content/uploads/2017/09/LF2-rsz-300x400.jpg)
+![we](http://gastonalive.com/wp-content/uploads/2017/09/LF2-rsz-300x400.jpg "we")
 
 What about a farmer? Farming sounds great at 9-years-old. It’s like Dwight D. Eisenhower said many years ago: “Farming looks mighty easy when your plow is a pencil and you’re a thousand miles from the corn fields.” When the bugs are biting, and the summer heat and humidity have worn you down, that doesn’t sound mighty easy at all.
 

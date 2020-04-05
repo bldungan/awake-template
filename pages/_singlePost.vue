@@ -42,9 +42,52 @@ export default {
     Markdown,
     PostSidebar
   },
+  head() {
+    return {
+      title: `${this.$store.state.title} | ${this.$siteConfig.siteName}`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$store.state.subtitle
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.$store.state.subtitle
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `${this.$store.state.title} | ${this.$siteConfig.siteName}`
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.url + this.getRealImage
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.url
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: `summary_large_image`
+        },
+        {
+          hid: 'og:site_name',
+          name: 'og:site_name',
+          content: this.$siteConfig.siteName
+        }
+      ]
+    }
+  },
   computed: {
     ...mapState([
       'title',
+      'teaser',
       'subtitle',
       'featureImage',
       'underSubtitle',
@@ -55,8 +98,11 @@ export default {
     date() {
       return getFormattedDate(this.$store.state.date)
     },
+    getRealImage() {
+      return require(`~/assets${this.featureImage}`)
+    },
     url() {
-      return `${process.env.URL}/${this.$route.fullPath}`
+      return `${process.env.URL}`
     }
   },
   fetch({ store, params }) {

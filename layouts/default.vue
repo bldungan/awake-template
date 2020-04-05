@@ -32,8 +32,8 @@ export default {
         },
         {
           hid: 'og:title',
-          name: 'og:title',
-          content: `${this.$store.state.title} ← ${this.$siteConfig.siteName}`
+          property: 'og:title',
+          title: `${this.$store.state.title} | ${this.$siteConfig.siteName}`
         },
         {
           hid: 'og:image',

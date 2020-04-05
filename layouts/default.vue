@@ -37,7 +37,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'this.url' + this.$store.state.featureImage
+          content: this.url + this.$store.state.featureImage
         },
         {
           hid: 'og:url',

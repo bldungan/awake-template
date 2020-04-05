@@ -23,10 +23,6 @@ export default {
       link: '/about'
     },
     {
-      name: 'Categories',
-      link: '/categories'
-    },
-    {
       name: 'Contact',
       link: '/contact'
     },
@@ -78,7 +74,7 @@ export default {
 
   // Categories
   categories: {
-    on: true,
+    on: false,
     perPage: 6,
     imageDimensions: null, // See card.imageDimensions (can be unique for categories if set here)
     theme: null // See card.theme (can be unique for categories if set here)
@@ -93,8 +89,8 @@ export default {
     date: {
       display: true
     },
-    perRow: 4,
-    perPage: 12
+    perRow: 3,
+    perPage: 6
   }
 }
 

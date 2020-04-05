@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'The Ben Dungan (dot com)',
-  tagline: "It's true… I'm the only one!  ",
+  tagline: "It's true… I'm the only one!",
   featureImage: '/uploads/home-hero.jpg',
   logo: '/logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {

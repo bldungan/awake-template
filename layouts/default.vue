@@ -13,6 +13,7 @@
 
 <script>
 import 'animate.css/animate.min.css'
+import { mapState } from 'vuex'
 export default {
   transition: 'slide-fade',
   head() {
@@ -37,7 +38,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.url + this.$store.state.featureImage
+          content: this.url + this.getRealImage
         },
         {
           hid: 'og:url',
@@ -71,6 +72,24 @@ export default {
           to: { name: 'inspire' }
         }
       ]
+    }
+  },
+  computed: {
+    ...mapState([
+      'title',
+      'teaser',
+      'subtitle',
+      'featureImage',
+      'underSubtitle',
+      'author',
+      'category',
+      'slug'
+    ]),
+    getRealImage() {
+      return require(`~/assets${this.featureImage}`)
+    },
+    url() {
+      return `${process.env.URL}`
     }
   },
   watch: {
